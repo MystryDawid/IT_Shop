@@ -1,0 +1,446 @@
+*,::placeholder{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.gif{
+  display: block;
+  margin: 0 auto;
+}
+
+div{
+    cursor: default;
+}
+
+  .btn{
+    font-size: 20px;
+
+    float: left;
+
+    height: 100%;
+    padding: 7px;
+
+    cursor: pointer;
+
+    border: none;
+    border-right: black solid 1px;
+    background-color: #940315;
+  }
+  .btn:hover{
+      border-right: black solid 1px;
+      background-color: #bf0219;
+  }
+
+
+  .right{
+      float: right;
+
+      border: none;
+      border-left: black solid 1px;
+  }
+  .right:hover{
+      border: none;
+      border-left: black solid 1px;
+  }
+
+  .search{
+      cursor: auto;
+
+      background-color: #940315;
+  }
+  .search:hover{
+      cursor: auto;
+
+      border-right: black solid 1px;
+      background-color: #bf0219;
+  }
+
+  .butony{
+    font-size: 20px;
+    height: 50px;
+    padding: 7px;
+    border: none;
+    background-color: #940315;
+  }
+
+  .btn-loguj{
+    margin-top: 20px;
+  }
+
+  #btnKoszyk{
+    font-size: 20px;
+
+    float: left;
+
+    height: 100%;
+    padding: 7px;
+
+    cursor: pointer;
+    border: none;
+    background-color: #940315;
+    float: right;
+
+    border: none;
+    border-left: black solid 1px;
+  }
+  #btnKoszyk:hover{
+    border: none;
+    border-left: black solid 1px;
+    background-color: #bf0219;
+  }
+  .LiczbaMini{
+    height: 45px;
+    width: 45px;
+    font-size: 24px;
+    background-color: #940315;
+    border: none;
+    border-right: black solid 1px;
+  }
+  .usun{
+    height: 45px;
+    font-size: 24px;
+    background-color: #940315;
+    border: none;
+    border-right: black solid 1px;
+  }
+  .usun:hover{
+    border: none;
+  }
+
+  .btnPodMenu{
+    font-size: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    background-color: #940315;
+  }
+  .btnPodMenuHover:hover{
+    border-right: black solid 1px;
+    background-color: #bf0219;
+  }
+  #btnFiltr{
+    cursor: pointer;
+  }
+
+  .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+
+    background-color: #9B96A3;
+  }
+
+  #Logo{
+    height: 50px;
+    text-align: center;
+    width: 15%;
+    font-family: 'Audiowide', cursive;
+    font-size: 39px;
+    float: left;
+    background-color: #393845;
+  }
+
+  .menu{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: #5C0009;
+  }
+
+  #kategorie{
+    float: left;
+
+    width: 15%;
+    height: auto;
+
+    background-color: #393845;
+  }
+
+  .kategorie{
+    list-style-type: none;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 8px;
+
+    cursor: pointer;
+
+    border-bottom: 5px black solid;
+  }
+  .kategorie:hover{
+    list-style-type: none;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 8px;
+
+    cursor: pointer;
+
+    border-bottom: 5px black solid;
+    background-color: #695F74;
+  }
+
+  .main{
+    position: relative;
+
+    float: left;
+
+    width: 85%;
+    height: auto;
+
+    background-color: #9B96A3;
+  }
+
+  .podKategorie{
+    font-family: 'Bungee', cursive;
+    font-size: 16px;
+
+    position: absolute;
+    left: 15%;
+    z-index: 9998;
+
+    display: none;
+    float: left;
+
+    width: 0px;
+    height: auto;
+
+    background-color: #BEB4CB;
+  }
+
+  #podKategorie{
+    text-align: center;
+  }
+
+  .podKategorieLista{
+    list-style-type: none;
+    font-family: 'Bungee', cursive;
+    font-size: 16px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+
+    cursor: pointer;
+  }
+  .podKategorieLista:hover{
+    color: #D2DCEB;
+  }
+
+  .podKategorieNaglowek{
+    cursor: pointer;
+    list-style-type: none;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    padding-left: 48px;
+  }
+  .podKategorieNaglowek:hover{
+    list-style-type: none;
+    color: #D2DCEB;
+  }
+
+  #Logowanie{
+    display: none;
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    position: fixed;
+    z-index: 10002;
+    top: 200px;
+    left: 495px;
+    height: 350px;
+    width: 450px;
+    list-style-type: none;
+    background-color: #D2DCEB;
+    text-align: center;
+  }
+  #kontaktowanie{
+    display: none;
+    font-family: 'Bungee', cursive;
+    font-size: 32px;
+    position: fixed;
+    z-index: 10002;
+    top: 200px;
+    left: 495px;
+    height: 350px;
+    width: 450px;
+    list-style-type: none;
+    background-color: #D2DCEB;
+    text-align: center;
+  }
+  #blury{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10001;
+    height: 100%;
+    width: 100%;
+    filter: opacity(.8);
+    background-color: #393845;
+    display: none;
+
+  }
+
+  #koszyk{
+    position: fixed;
+    width: auto;
+    height: auto;
+    display: none;
+    font-family: 'Bungee', cursive;
+    z-index: 10002;
+    background-color: #D2DCEB;
+    text-align: center;
+  }
+
+  .podmenu{
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+
+
+
+    border: none;
+    border-top: black solid 1px;
+    background-color: #695F74;
+  }
+
+  #filtry{
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    background-color: #940315;
+  }
+
+  .filtry{
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: #940315 solid 7px;
+
+  }
+
+  #zamowienie{
+    display:none;
+    position:absolute;
+    top:100px;
+    left:0px;
+    width:100%;
+    height:auto;
+    background-color:#9B96A3;
+    z-index:10002;
+    text-align: center;
+  }
+
+  .blokTowaru{
+  margin: 10px;
+  background-color: #BEB4CB;
+  height: 350px;
+}
+.Obraz{
+
+  height: 306px;
+  width: 306px;
+  float: left;
+}
+.cena{
+  font-size: 40px;
+  background-color: #940315;
+  float: right;
+  height: 55px;
+  width: 200px;
+}
+.nazwa{
+  background-color: #393845;
+  float: left;
+  font-size: 32px;
+  width:100%;
+}
+.Specyfikacja{
+  font-size: 24px;
+  list-style-type: none;
+  background-color: #EBEBF0;
+  height: 350px;
+}
+
+.Liczba{
+  font-size: 24px;
+  float: right;
+  background-color: #940315;
+  margin-top: 55px;
+  margin-right: -200px;
+  width: 200px;
+  border: none;
+}
+.doKoszyka{
+  margin-top:87px;
+  cursor: pointer;
+  font-size: 24px;
+  float: right;
+  background-color: #940315;
+  margin-right: -200px;
+  width: 200px;
+  border: none;
+}
+
+.blokTowaruMini{
+  background-color: #BEB4CB;
+  height: 65px;
+}
+
+.nazwaMini{
+  background-color: #393845;
+  float: left;
+  font-size: 32px;
+  height: 40px;
+  width:900px;
+  padding-bottom: 5px;
+}
+    
+
+
+
+
+
+
+
+    
+
+
+
+/*
+#010000
+#393845
+#9B96A3
+#5C0009
+#940315
+
+#231921
+#695F74
+#BEB4CB
+#EBEBF0
+#D2DCEB
+*/
